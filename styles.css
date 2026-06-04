@@ -327,6 +327,11 @@ h3 {
   color: var(--muted);
 }
 
+.project-cta {
+  align-self: flex-start;
+  margin-top: 18px;
+}
+
 .capability-list {
   display: grid;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
@@ -438,5 +443,9 @@ h3 {
   .button,
   .contact-links {
     width: 100%;
+  }
+
+  .project-cta {
+    align-self: stretch;
   }
 }
